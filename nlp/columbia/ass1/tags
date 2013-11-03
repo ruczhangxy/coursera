@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+Evaluator	eval_gene_tagger.py	/^class Evaluator(object):$/;"	c
+Hmm	count_freqs.py	/^class Hmm(object):$/;"	c
+NeTypeCounts	eval_gene_tagger.py	/^class NeTypeCounts(object):$/;"	c
+NullDevice	submit.py	/^class NullDevice:$/;"	c
+__init__	count_freqs.py	/^    def __init__(self, n=3):$/;"	m	class:Hmm
+__init__	eval_gene_tagger.py	/^    def __init__(self):        $/;"	m	class:Evaluator
+__init__	eval_gene_tagger.py	/^    def __init__(self):$/;"	m	class:NeTypeCounts
+basicPrompt	submit.py	/^def basicPrompt():$/;"	f
+challengeResponse	submit.py	/^def challengeResponse(email, passwd, challenge):$/;"	f
+challenge_url	submit.py	/^def challenge_url():$/;"	f
+compare	eval_gene_tagger.py	/^    def compare(self, gold_standard, prediction):$/;"	m	class:Evaluator
+corpus_iterator	eval_gene_tagger.py	/^def corpus_iterator(corpus_file, with_logprob = False):$/;"	f
+emission	emission.py	/^def emission(x, y):$/;"	f
+getChallenge	submit.py	/^def getChallenge(email, sid):$/;"	f
+get_accuracy	eval_gene_tagger.py	/^    def get_accuracy(self):$/;"	m	class:NeTypeCounts
+get_ngrams	count_freqs.py	/^def get_ngrams(sent_iterator, n):$/;"	f
+get_precision	eval_gene_tagger.py	/^    def get_precision(self):$/;"	m	class:NeTypeCounts
+get_recall	eval_gene_tagger.py	/^    def get_recall(self):$/;"	m	class:NeTypeCounts
+load_count	emission.py	/^def load_count(fname):$/;"	f
+loginPrompt	submit.py	/^def loginPrompt():$/;"	f
+max_emission	emission.py	/^def max_emission(x):$/;"	f
+output	submit.py	/^def output(partIdx):$/;"	f
+partPrompt	submit.py	/^def partPrompt():$/;"	f
+print_scores	eval_gene_tagger.py	/^    def print_scores(self):$/;"	m	class:Evaluator
+read_counts	count_freqs.py	/^    def read_counts(self, corpusfile):$/;"	m	class:Hmm
+sentence_iterator	count_freqs.py	/^def sentence_iterator(corpus_iterator):$/;"	f
+simple_conll_corpus_iterator	count_freqs.py	/^def simple_conll_corpus_iterator(corpus_file):$/;"	f
+source	submit.py	/^def source(partIdx):$/;"	f
+sub_rare	sub_rare.py	/^def sub_rare(fname, out_name):$/;"	f
+submit	submit.py	/^def submit():   $/;"	f
+submitSolution	submit.py	/^def submitSolution(email_address, ch_resp, sid, output, source, state, ch_aux):$/;"	f
+submit_url	submit.py	/^def submit_url():$/;"	f
+train	count_freqs.py	/^    def train(self, corpus_file):$/;"	m	class:Hmm
+usage	count_freqs.py	/^def usage():$/;"	f
+usage	eval_gene_tagger.py	/^def usage():$/;"	f
+write	submit.py	/^  def write(self, s):$/;"	m	class:NullDevice
+write_counts	count_freqs.py	/^    def write_counts(self, output, printngrams=[1,2,3]):$/;"	m	class:Hmm
